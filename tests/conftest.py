@@ -50,11 +50,6 @@ def create_product():
         )
     return _create_product
 
-@pytest.fixture(autouse=True)
-def celery_eager_mode(settings):
-    settings.CELERY_TASK_ALWAYS_EAGER = True
-    settings.CELERY_TASK_EAGER_PROPAGATES = True
-
 @pytest.fixture
 def create_booking():
     def _create_booking(
