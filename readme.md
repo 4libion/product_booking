@@ -142,10 +142,3 @@ def test_product_quantity_after_booking(
 ## 📢 API Endpoints
 
 Use Swagger to explore APIs at `http://localhost:8000/api/docs/swagger`
-
----
-
-## 📜 License
-
-MIT License
-
